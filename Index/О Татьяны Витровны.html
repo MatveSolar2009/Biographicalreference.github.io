@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Биография - Вики-сайт</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Georgia', serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #202122;
+            line-height: 1.7;
+            padding: 0 10px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 25px;
+            display: grid;
+            grid-template-columns: 1.2fr 3fr;
+            gap: 30px;
+        }
+        
+        header {
+            background-color: #eaecf0;
+            padding: 15px 25px;
+            border-bottom: 1px solid #a2a9b1;
+            margin-bottom: 20px;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #0645ad;
+        }
+        
+        .photo-container {
+            background: white;
+            padding: 20px;
+            border: 1px solid #a2a9b1;
+            border-radius: 6px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .person-photo {
+            width: 100%;
+            max-width: 380px;
+            height: auto;
+            border: 1px solid #a2a9b1;
+            border-radius: 4px;
+        }
+        
+        .photo-caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 15px;
+            color: #54595d;
+            font-size: 16px;
+        }
+        
+        .content {
+            background: white;
+            padding: 30px;
+            border: 1px solid #a2a9b1;
+            border-radius: 6px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 34px;
+            border-bottom: 2px solid #a2a9b1;
+            padding-bottom: 12px;
+            margin-bottom: 25px;
+            color: #000;
+        }
+        
+        h2 {
+            font-size: 26px;
+            margin: 30px 0 18px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #a2a9b1;
+            color: #000;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+            font-size: 18px;
+            line-height: 1.8;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+        
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            padding: 25px;
+            border-top: 1px solid #a2a9b1;
+            color: #54595d;
+            font-size: 16px;
+            background-color: #eaecf0;
+        }
+        
+        @media (max-width: 992px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+            
+            .photo-container {
+                max-width: 500px;
+                margin: 0 auto;
+            }
+            
+            .person-photo {
+                max-width: 100%;
+            }
+            
+            h1 {
+                font-size: 30px;
+            }
+            
+            h2 {
+                font-size: 24px;
+            }
+            
+            p {
+                font-size: 17px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 26px;
+            }
+            
+            h2 {
+                font-size: 22px;
+            }
+            
+            p {
+                font-size: 16px;
+            }
+            
+            .logo {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Вики-сайт</div>
+    </header>
+    
+    <div class="container">
+        <aside>
+            <div class="photo-container">
+                <!-- ВСТАВЬТЕ ВАШЕ ФОТО ЗДЕСЬ -->
+                <img src="Images/Татьяна_Витровна.jpg" alt="Фотография человека" class="person-photo">
+                <div class="photo-caption">Татьяна Васянина Витровна</div>
+            </div>
+        </aside>
+        
+        <main class="content">
+            <h1>Татьяна Васянина Витровна</h1>
+            
+            <p>Татьяна Васянина Витровна (род. 8 марта 1974, Чернуха) — КрАтКаЯ ИнФоРМаЦиЯ</p>
+            
+            <h2>Биография</h2>
+            
+            <p>Информация о биографии</p>
+            
+            
+            
+             <h2>Крылатое вырожение</h2>
+            
+            <p>
+Ни одно произнесённое слово не принесло столько пользы, сколько множество непроизнесённых.</p>
+            
+            
+            <!--<p>В последние годы активно занимается исследованиями в области объяснимого искусственного интеллекта (XAI), стремясь сделать алгоритмы машинного обучения более прозрачными и понятными для пользователей. Его работы в этой области получили международное признание и были опубликованы в ведущих научных журналах.</p>
+        -->
+        </main>
+    </div>
+    
+  <!--  <footer>
+        <p>Материалы сайта доступны по лицензии Creative Commons Attribution-ShareAlike 3.0</p>
+        <p>© 2023 Вики-сайт | Последнее обновление: 15 ноября 2023</p>
+    </footer>
+-->
+</body>
+</html>
