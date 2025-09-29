@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета про самого лучшего учителя</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Georgia', serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #202122;
+            line-height: 1.7;
+            padding: 0 10px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 25px;
+            display: grid;
+            grid-template-columns: 1.2fr 3fr;
+            gap: 30px;
+        }
+        
+        header {
+            background-color: #eaecf0;
+            padding: 15px 25px;
+            border-bottom: 1px solid #a2a9b1;
+            margin-bottom: 20px;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #0645ad;
+        }
+        
+        .photo-container {
+            background: white;
+            padding: 20px;
+            border: 1px solid #a2a9b1;
+            border-radius: 6px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .person-photo {
+            width: 100%;
+            max-width: 380px;
+            height: auto;
+            border: 1px solid #a2a9b1;
+            border-radius: 4px;
+        }
+        
+        .photo-caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 15px;
+            color: #54595d;
+            font-size: 16px;
+        }
+        
+        .content {
+            background: white;
+            padding: 30px;
+            border: 1px solid #a2a9b1;
+            border-radius: 6px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 34px;
+            border-bottom: 2px solid #a2a9b1;
+            padding-bottom: 12px;
+            margin-bottom: 25px;
+            color: #000;
+        }
+        
+        h2 {
+            font-size: 26px;
+            margin: 30px 0 18px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #a2a9b1;
+            color: #000;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+            font-size: 18px;
+            line-height: 1.8;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+        
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            padding: 25px;
+            border-top: 1px solid #a2a9b1;
+            color: #54595d;
+            font-size: 16px;
+            background-color: #eaecf0;
+        }
+        
+        @media (max-width: 992px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+            
+            .photo-container {
+                max-width: 500px;
+                margin: 0 auto;
+            }
+            
+            .person-photo {
+                max-width: 100%;
+            }
+            
+            h1 {
+                font-size: 30px;
+            }
+            
+            h2 {
+                font-size: 24px;
+            }
+            
+            p {
+                font-size: 17px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 26px;
+            }
+            
+            h2 {
+                font-size: 22px;
+            }
+            
+            p {
+                font-size: 16px;
+            }
+            
+            .logo {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Анкета про самого лучшего учителя</div>
+    </header>
+    
+    <div class="container">
+        <aside>
+            <div class="photo-container">
+                <!-- ВСТАВЬТЕ ВАШЕ ФОТО ЗДЕСЬ -->
+                <img src="Images/Марина_Владимирова.jpg" alt="Фотография человека" class="person-photo">
+                <div class="photo-caption">Журавлёва Марина Владимирова </div>
+            </div>
+        </aside>
+        
+        <main class="content">
+            
+            <h1>Журавлёва Марина Владимирова</h1>
+            
+            <p>Журавлёва Марина Владимирова (род. 22 марта) — Учитель начальных классов.</p>
+            <!------------------------------------------------------------------------------>
+            <h2>Педагогический стаж</h2>
+            
+            <p>38 лет</p>
+            
+            <!------------------------------------------------------------------------------>
+            
+             <h2>Девиз как учителя</h2>
+            
+            <p>Я в ответе за тех, кого обучаю.</p>
+            <!------------------------------------------------------------------------------>
+            <h2>Самое запоминающееся событие из моей педагогической практики.</h2>
+            
+            <p>Первоевыпускной из начальной школы</p>
+            <!------------------------------------------------------------------------------>
+            <h2>Самая большая профессиональная гордость.</h2>
+            
+            <p>Моя профессия — моя гордасть</p>
+            <!------------------------------------------------------------------------------>
+            <h2>Самое важное качество, которое я стараюсь воспитать в своих учениках.</h2>
+            
+            <p>Отвественность, любознательность, трудолюбие</p>
+            <!------------------------------------------------------------------------------>
+            <h2>Ваш совет сегодняшним школьникам.</h2>
+            
+            <p>Быть ответственным, активным, самоорганизованным</p>
+            <!------------------------------------------------------------------------------>
+            <h2>Что делаю за 5 минут до конца урока?</h2>
+            
+            <p>Подвожу итог занятия</p> 
+            <!------------------------------------------------------------------------------>
+            <h2>О чём Мечтаю в середине четверти? </h2>
+            
+            <p>Чтобы дети учились с желанием и были здоровыми</p> 
+            <!------------------------------------------------------------------------------>
+            <h2>Мой источник вдохновения </h2>
+            
+            <p>Учиники</p> 
+            <!------------------------------------------------------------------------------>
+            <h2>Кем хотели стать в детстве? </h2>
+            
+            <p>Учителем</p> 
+            <!------------------------------------------------------------------------------>
+          
+            <h2>«Урок — это не просто 45 минут, это...»</h2>
+            
+            <p>Маленькая жизнь</p> 
+            <!------------------------------------------------------------------------------>            
+        </main>
+    </div>
+    
+
+</body>
+</html>
